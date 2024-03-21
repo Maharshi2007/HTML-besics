@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event regestration form</title>
+  </head>
+  <body>
+    <h1>Event regestration</h1>
+    <form action="push">
+      <label for="name">Name</label>
+      <br />
+      <br />
+      <input type="text" id="name" name="name" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <br />
+      <br />
+      <input type="text" id="email" name="email" />
+      <br />
+      <br />
+      <label for="phone">Phone</label>
+      <br />
+      <br />
+      <input type="text" id="phone" name="phone" />
+      <br />
+      <br />
+      <label for="occupation">Occupation</label>
+      <br />
+      <select name="occupation" id="occupation">
+        <option value="fullstack developer">fullstack developer</option>
+        <option value="frontend developer">frontend developer</option>
+        <option value="backend developer developer">backend developer developer</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Topic of intrest</legend>
+      <label for="html">HTML</label>
+      <br />
+      <input type="checkbox" id="html" />
+      <br />
+      <br />
+      <label for="css">CSS</label>
+      <br />
+      <input type="checkbox" id="css" />
+      <br />
+      <br />
+      <label for="js">JavaScript</label>
+      <br />
+      <input type="checkbox" id="js" />
+    </fieldset>
+      <br />
+      <br />
+      <label for="com">comments</label>
+      <br />
+      <textarea name="comments" id="com" cols="70" rows="20"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

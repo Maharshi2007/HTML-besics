@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application form</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <form action="push">
+
+        <label for="name">Name</label>
+        <br />
+        <br />
+        <input type="text" id="name" name="name" />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <br />
+        <input type="text" id="email" name="email" />
+        <br />
+        <br />
+        <label for="phone">Phone</label>
+        <br />
+        <br />
+        <input type="text" id="phone" name="phone" />
+        <br />
+        <br />
+        <label for="file">upload your resume</label>
+        <br>
+        <input type="file" id="file">
+        <br>
+        <br>
+        <label for="exp">Years of Experience</label>
+        <br>
+        <input type="number" min="0" max="50">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills</legend>
+          <label for="html">HTML</label>
+          <br />
+          <input type="checkbox" id="html" />
+          <br />
+          <br />
+          <label for="css">CSS</label>
+          <br />
+          <input type="checkbox" id="css" />
+          <br />
+          <br />
+          <label for="js">JavaScript</label>
+          <br />
+          <input type="checkbox" id="js" />
+        </fieldset>
+        <br>
+        <br>
+        <label for="edu">Education</label>
+        <br>
+        <select name="edu" id="edu">
+            <option value="high school">high school</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Degree">Degree</option>
+            <option value="Masters">Masters</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Availability</legend>
+        <label for="fl">Full-Time</label>
+        <input type="radio" name="avi" id="fl">
+        <br>
+        <label for="pt">Part-Time</label>
+        <input type="radio" name="avi" id="pt">
+        </fieldset>
+        <br>
+        <br>
+        <label for="cm">Additional comments</label>
+        <br>
+        <textarea name="com" id="cm" cols="70" rows="20" placeholder="comments....."></textarea>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
